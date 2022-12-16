@@ -1,12 +1,9 @@
-import './App.css';
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { useState } from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import './App.css';
+import Main from './components/Main';
 function App() {
   return (
-    <BrowserRouter>
-    </BrowserRouter>
+    <Main />
   );
 }
 
